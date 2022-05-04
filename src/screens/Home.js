@@ -3,9 +3,9 @@ import Header from '../components/Header';
 
 const Home = () => {
     return (
-        <>
-            <Header />
-        </>
+        <div className='h-screen'>
+            Home
+        </div>
     )
 }
 

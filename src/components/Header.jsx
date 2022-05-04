@@ -9,11 +9,11 @@ import '../styles/Header.css';
 
 const Header = () => {
     return (
-        <nav className='w-full h-8 flex flex-row font-heading text-white text-xs items-center justify-evenly'
+        <nav className='w-full h-8 flex flex-row text-white text-xs items-center justify-evenly'
             style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
         >
             <div className=''>
-                <NavLink to='/' className='font-black'
+                <NavLink to='/' className='font-black half-border-bottom'
                     style={{ fontFamily: 'Water Brush, cursive' }}
                 >
                     Quiz App
@@ -23,7 +23,9 @@ const Header = () => {
 
             <div className=''>
                 <NavLink to='/'>
-                    <h3 className='half-border-bottom'>Welcome [User]!</h3>
+                    <h3 className='half-border-bottom'>
+                        Welcome [User]!
+                    </h3>
                 </NavLink>
             </div>
 
