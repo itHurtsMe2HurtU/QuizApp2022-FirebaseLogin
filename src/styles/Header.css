@@ -1,0 +1,15 @@
+/* //--------------- Half Border Animation Effect ----------------// */
+
+.half-border-bottom:after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px rgb(149, 8, 8);
+    transform: scaleX(0.5);
+    /* transform: scaleX(0); */
+    transition: transform 250ms ease-in-out;
+}
+
+.half-border-bottom:hover:after {
+    transform: scaleX(1);
+    /* transform: scaleX(0.5); */
+}
