@@ -9,7 +9,7 @@ import '../styles/Header.css';
 
 const Header = () => {
     return (
-        <nav className='w-full h-8 flex flex-row text-white text-xs items-center justify-evenly'
+        <nav className='w-full h-20 flex flex-row text-white text-3xl items-center justify-evenly'
             style={{ background: 'linear-gradient(to right, #140e38, #194089)' }}
         >
             <div className=''>
@@ -33,7 +33,7 @@ const Header = () => {
             <div className='p-2 flex flex-row items-center space-x-2'>
 
                 <NavLink to='/'>
-                    <img className='block rounded-full h-4 w-4' src={ProfileImage} />
+                    <img className='block rounded-full h-10 w-10' src={ProfileImage} />
                 </NavLink>
 
                 <NavLink to='/'>

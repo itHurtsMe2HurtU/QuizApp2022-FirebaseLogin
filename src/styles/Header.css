@@ -3,7 +3,7 @@
 .half-border-bottom:after {
     display: block;
     content: '';
-    border-bottom: solid 1px rgb(149, 8, 8);
+    border-bottom: solid 3px rgb(149, 8, 8);
     transform: scaleX(0.5);
     /* transform: scaleX(0); */
     transition: transform 250ms ease-in-out;
